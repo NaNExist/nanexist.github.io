@@ -3,6 +3,7 @@ title: "SPFA优化算法-SLF_Swap"
 date: 2021-10-09 20:26:00 +0800
 categories: [算法]
 tags: [SPFA,优化]
+math: true
 ---
 
 # SPFA他死了
