@@ -7,7 +7,7 @@ tags: [SPFA,优化]
 
 # SPFA他死了
 
-![](/images/2021-10-09-SPFA-optimize/1.png)
+![](/assets/images/2021-10-09-SPFA-optimize/1.png)
 
 出于众所周知的原因，SPFA他死了。但是我们可以通过一些简单的优化来挽回一点点（对于存心针对优化卡SPFA的数据依然没有办法）。 
 
