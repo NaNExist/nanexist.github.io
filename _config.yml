@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: NaNExist的博客 # the main title
 
-tagline: 还没想好写什么 # it will display as the subtitle
+tagline: 在黄沙中沉沦 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   还没想好写什么。
@@ -138,9 +138,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # The option for PWA feature (installable)
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
