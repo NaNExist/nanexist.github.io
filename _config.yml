@@ -18,8 +18,8 @@ title: NaNExist的博客 # the main title
 
 tagline: 在黄沙中沉沦 # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
-  还没想好写什么。
+description: "专注于编程、科研与个人成长的博客，记录学习与探索的过程" # used by seo meta and the atom feed
+  
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
