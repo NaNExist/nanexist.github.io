@@ -44,6 +44,10 @@ WRF 数据同化系统（WRFDA）是一个可选程序，用于将观测数据�
 
 包含了 [wrf-python](https://wrf-python.readthedocs.io/en/latest/) , [NCL](https://www.ncl.ucar.edu/) 等多种后处理程序。
 
+流程图如下：
+
+![](/assets/images/WRF/wrf-flowchart-arw_v3.png)
+
 ## 模块使用
 
 - 对于理想化情境运行： WRF-ARW Solver + PostProcessing
