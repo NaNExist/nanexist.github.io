@@ -1,11 +1,10 @@
 ---
-title: "WRF Overview Part1"
+title: "WRF Overview（一）：模块组成与运行流程"
+description: "介绍 WRF 的 WPS、初始化、WRF-ARW、WRFDA 和后处理模块，以及理想化、实际场景和变分分析的运行流程。"
 date: 2025-09-07 23:17:00 +0800
 categories: [WRF]
 tags: [WRF,数值模式]
 ---
-
-# WRF Overview Part1
 
 这是WRF学习系列的第一期，本期将介绍WRF的模块组成和不同情况下应该运行哪些模块。
 

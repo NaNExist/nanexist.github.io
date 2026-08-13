@@ -1,12 +1,13 @@
 ---
-title: "SPFA优化算法-SLF_Swap"
+title: "SPFA 队列优化：SLF、LLL 与 SLF_Swap"
+description: "介绍 SPFA 的 SLF、LLL、容错 SLF、MCFX 和 SLF_Swap 队列优化思路，并给出 SLF_Swap 的 C++ 实现。"
 date: 2021-10-09 20:26:00 +0800
 categories: [算法]
 tags: [SPFA,优化]
 math: true
 ---
 
-# SPFA他死了
+## SPFA 他死了
 
 ![](/assets/images/2021-10-09-SPFA-optimize/1.png)
 

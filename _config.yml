@@ -23,7 +23,7 @@ description: "专注于编程、科研与个人成长的博客，记录学习与
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://nanexist.github.io/"
+url: "https://nanexist.github.io"
 
 github:
   username: NaNExist # change to your GitHub username
