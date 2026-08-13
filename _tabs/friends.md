@@ -7,32 +7,30 @@ description: 朋友们的博客与值得访问的网站
 permalink: /friends/
 ---
 
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+<div class="mb-5">
   {% for friend in site.data.friends %}
-    <div class="col">
-      <a
-        href="{{ friend.link }}"
-        class="card h-100 text-decoration-none"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="card-body d-flex align-items-center">
-          {% if friend.avatar %}
-            <img
-              src="{{ friend.avatar }}"
-              alt="{{ friend.name }} 的头像"
-              class="rounded-circle flex-shrink-0 me-3"
-              width="64"
-              height="64"
-              loading="lazy"
-            >
-          {% endif %}
-          <div>
-            <h2 class="h5 card-title mb-1">{{ friend.name }}</h2>
-            <p class="card-text text-muted mb-0">{{ friend.description }}</p>
-          </div>
-        </div>
-      </a>
+    <div class="d-flex align-items-center gap-3 border rounded p-3 mb-3">
+      {% if friend.avatar %}
+        <img
+          src="{{ friend.avatar }}"
+          alt="{{ friend.name }} 的头像"
+          class="rounded-circle flex-shrink-0"
+          width="64"
+          height="64"
+          style="width: 4rem; height: 4rem; object-fit: cover;"
+        >
+      {% endif %}
+      <div>
+        <a
+          href="{{ friend.link }}"
+          class="fs-5 fw-semibold text-decoration-none"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{- friend.name -}}
+        </a>
+        <p class="text-muted mb-0 mt-1">{{ friend.description }}</p>
+      </div>
     </div>
   {% endfor %}
 </div>
