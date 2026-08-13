@@ -1,0 +1,22 @@
+{
+  "name": "NaNExist的博客",
+  "short_name": "NaNExist的博客",
+  "description": "专注于编程、科研与个人成长的博客，记录学习与探索的过程",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/favicons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#1b1b1e",
+  "background_color": "#1b1b1e",
+  "display": "standalone"
+}
